@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const markdown = require("./utils/generateMarkdown");
-const fs = require("fs")
+const fs = require("fs");
 // TODO: Create an array of questions for user input
 const questions = [
   {
@@ -17,7 +17,7 @@ const questions = [
   {
     type: "input",
     name: "installation",
-    message: "Installation instructions?",
+    message: "Installation- Depenencies?",
   },
   {
     type: "input",
@@ -26,7 +26,7 @@ const questions = [
   },
   {
     type: "input",
-    name: "contribution",
+    name: "contributions",
     message: "Contribution information?",
   },
   {
@@ -37,12 +37,12 @@ const questions = [
   {
     type: "input",
     name: "email",
-    message: "For questions(email)?",
+    message: "For questions about your repo; email address?",
   },
   {
     type: "input",
     name: "github",
-    message: "For questions(github)?",
+    message: "For questions about your repo; github link?",
   },
   {
     type: "list",
@@ -54,17 +54,17 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, markdown(data), (err, data) => {
-        console.log("ReadMe created!");
-      });
-  }
+  fs.writeFile(fileName, markdown(data), (err, data) => {
+    console.log("ReadMe created!");
+  });
+}
 
 // TODO: Create a function to initialize app
 async function init() {
-    const readme = await inquirer.prompt(questions);
-    writeToFile("README.md", readme);
-    console.log(readme);
-  }
+  const readme = await inquirer.prompt(questions);
+  writeToFile("Demo-README.md", readme);
+  console.log(readme);
+}
 
 // Function call to initialize app
 init();
