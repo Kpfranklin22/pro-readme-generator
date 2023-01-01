@@ -1,6 +1,19 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  const badges = {
+    MIT: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+    ISC: "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)",
+    Mozilla:
+      "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+    Apache:
+      "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+  };
+  if (license != none) {
+    return badges[license];
+  }
+  return "";
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -17,32 +30,36 @@ function generateMarkdown(data) {
 
   return `# ${data.title}
 
-  ## Table of Contents
-  - [Project Description](#Description)
-  - [Usage](#Usage)
-  - [Contributions](#Contributions)
-  - [Tests](#Tests)
-  - [Questions](#Questions)
-  - [License](#License)
+## Table of Contents
+  - [Project Description](#description)
+  - [Installation]{#installation}
+  - [Usage](#usage)
+  - [Contributions](#contributions)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  - [License](#license)
 
-  ## Description
+## Description
   ${data.description}
 
-  ## Usage
+## Installation 
+  The following dependencies must be installed to run the application: ${data.installation}
+
+## Usage
   This application is used for: ${data.usage}
 
-  ## Contributions
+## Contributions
   Contributors: ${data.contributions}
 
-  ## Tests
+## Tests
   To run tests, run the following command(s): ${data.tests}
 
-  ## Questions
+## Questions
   If you have any questions about the repository, you can contact me here:
   Email: ${data.email}
   Github: ${data.github}
 
-  ## License
+## License
   ${data.license}
 `;
 }
