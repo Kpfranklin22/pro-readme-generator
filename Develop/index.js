@@ -42,7 +42,7 @@ const questions = [
   {
     type: "input",
     name: "github",
-    message: "For questions about your repo; github link?",
+    message: "For questions about your repo; github username or link?",
   },
   {
     type: "list",
