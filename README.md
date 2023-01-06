@@ -19,6 +19,8 @@
 ## Usage
 To use this application the user must follow the prompts and input their project information. A styled README file will be created and added to their local repository.
 
+Here's a video demonstration: https://drive.google.com/file/d/1_an3ig6RrpFy_6PXqweRgaWN3F7pA_Oo/view
+
 ## Contributions
 Contributors: N/A
 
