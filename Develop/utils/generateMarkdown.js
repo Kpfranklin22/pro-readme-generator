@@ -75,7 +75,7 @@ If you have any questions about the repository, you can contact me by Email: ${
     data.email
   } or Github: ${data.github}
 
-  ${renderLicenseSection(data.license)}
+${renderLicenseSection(data.license)}
 `;
 }
 
