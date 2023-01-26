@@ -20,7 +20,7 @@ const questions = [
   {
     type: "input",
     name: "installation",
-    message: "Installation- Depenencies?",
+    message: "Installation- Dependencies?",
   },
   {
     type: "input",
