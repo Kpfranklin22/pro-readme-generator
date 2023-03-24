@@ -67,7 +67,7 @@ Github: [${data.github}](https://github.com/${data.github})
 
 ${renderLicenseSection(data.license)}
 
-:octocat: This README was created with [pro-readme-generator](https://github.com/Kpfranklin22/pro-readme-generator) :octocat:
+## :octocat: README created with [Pro-Readme-Generator](https://github.com/Kpfranklin22/pro-readme-generator) :octocat:
 `;
 }
 
