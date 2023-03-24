@@ -1,35 +1,29 @@
-# Professional README Generator
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+#<h1 align="center"> Professional README.md Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
-  - [Project Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributions](#contributions)
-  - [Tests](#tests)
-  - [Questions](#questions)
-  - [License](#license)
+- [Project Description](#description)
+- [Installation](#installation)
+- [Contributions](#contributions)
+- [Contact](#contact)
+- [License](#license)
 
 ## Description
-  This project is about creating a README file through the command line.
+This is a README generator created with Node.js and the Inquirer npm package. It's an application that prompts the user with questions about their project and then takes the input from the CLI (Command-Line Interface) to create a professional ready to deploy README.md file.
 
 ## Installation 
-  The following dependencies must be installed to run the application: Node, Inquirer
-
-## Usage
-To use this application the user must follow the prompts and input their project information. A styled README file will be created and added to their local repository.
-
-Here's a video demonstration: https://drive.google.com/file/d/1_an3ig6RrpFy_6PXqweRgaWN3F7pA_Oo/view
+Packages required: Node.js, Inquirer npm
 
 ## Contributions
-Contributors: N/A
+Kyle Franklin
 
-## Tests
-To run tests, run the following command(s): N/A
+## Contact
+Email: kpfranklin22@gmail.com <br/>
+Github: [Kpfranklin22](https://github.com/Kpfranklin22)
 
-## Questions
-If you have any questions about the repository, you can contact me by Email: kpfranklin22@gmail.com or Github: https://github.com/Kpfranklin22
-
-  
-  ## License
+## License
   MIT
+
+#<h1 align="center"> :octocat: This README.md was created with [Pro-Readme-Generator](https://github.com/Kpfranklin22/pro-readme-generator) :octocat:
