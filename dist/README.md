@@ -1,9 +1,9 @@
-# <h1 align="center"> React Portfolio App
 
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+
+#<h1 align="center"> Professional README.md Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
-
 - [Project Description](#description)
 - [Installation](#installation)
 - [Contributions](#contributions)
@@ -11,22 +11,19 @@
 - [License](#license)
 
 ## Description
+This is a README generator created with Node.js and the Inquirer npm package. It's an application that prompts the user with questions about their project and then takes the input from the CLI (Command-Line Interface) to create a professional ready to deploy README.md file.
 
-Using React.js, I have redesigned my portfolio page for future prospective job offers!
-
-## Installation
-
-Packages required: @emailjs/browser, @testing-library/jest-dom, @testing-library/react, @testing-library/user-event, react, react-dom, react-icons, react-router-dom, react-script, web-vitals. Some of these packages come with the React app out of the box.
+## Installation 
+Packages required: Node.js, Inquirer npm
 
 ## Contributions
-
 Kyle Franklin
 
 ## Contact
-
 Email: kpfranklin22@gmail.com <br/>
 Github: [Kpfranklin22](https://github.com/Kpfranklin22)
 
 ## License
+  MIT
 
-ISC
+#<h1 align="center"> :octocat: This README.md was created with [Pro-Readme-Generator](https://github.com/Kpfranklin22/pro-readme-generator) :octocat:

@@ -40,7 +40,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 
 function generateMarkdown(data) {
-return `
+  return `
 
 # <h1 align="center"> ${data.title}
 ${renderLicenseBadge(data.license)}
@@ -66,6 +66,8 @@ Email: ${data.email} <br/>
 Github: [${data.github}](https://github.com/${data.github})
 
 ${renderLicenseSection(data.license)}
+
+:octocat: This README was created with [pro-readme-generator](https://github.com/Kpfranklin22/pro-readme-generator) :octocat:
 `;
 }
 

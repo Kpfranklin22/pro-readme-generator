@@ -4,7 +4,8 @@
   "description": "Professional ReadMe Generator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "node index",
+    "start": "npm start"
   },
   "repository": {
     "type": "git",
