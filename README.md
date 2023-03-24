@@ -1,6 +1,6 @@
 
 
-<h1 align="center"> Professional README.md Generator
+# <h1 align="center"> Professional README.md Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
@@ -26,4 +26,4 @@ Github: [Kpfranklin22](https://github.com/Kpfranklin22)
 ## License
   MIT
 
-#<h1 align="center"> :octocat: This README.md was created with [Pro-Readme-Generator](https://github.com/Kpfranklin22/pro-readme-generator) :octocat:
+# <h1 align="center"> :octocat: This README.md was created with [Pro-Readme-Generator](https://github.com/Kpfranklin22/pro-readme-generator) :octocat:
